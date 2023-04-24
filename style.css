@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #8FBC8F;
+}
+form{
+    height: 250px;
+    width: 450px;
+    text-align: center;
+    padding-top: 79px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 0.1px;
+    background-color: #FFC0CB;
+    border-radius: 10px;
+    opacity: 0.2px;
+}
+form label{
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+    font-weight: 300;
+}
+form span{
+    margin-top: 10px;
+}
+form input{
+    margin-top: 20px;
+    margin-right: 9px;
+    cursor: pointer;
+    height: 33px;
+    width: 155px;
+}
+.css-button-gradient--7 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #c02425 0%, #f0cb35 75%);
+    margin-bottom: 20px;
+  }
+  .css-button-gradient--7:hover {
+    background-position: right center;
+  }
+  .css-button-gradient--7:active {
+    top: 2px;
+  }
+
+  .css-button-sharp--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #57cc99;
+    background: #57cc99;
+  }
+  .css-button-sharp--green:hover {
+    background: #fff;
+    color: #57cc99
+  }
